@@ -1,0 +1,16 @@
+{
+  "name": "webpack-issue-repro",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "server": "node server.js",
+    "hot": "webpack-dev-server --hot --config webpack.config.js"
+  },
+  "dependencies": {
+    "express": "^4.16.3",
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.1",
+    "webpack-dev-server": "^3.1.9"
+  }
+}
