@@ -4,4 +4,4 @@ if (module.hot) {
 
 const el = document.getElementById('container')
 
-el.textContent = 'something how neat'
+el.textContent = 'something else'
